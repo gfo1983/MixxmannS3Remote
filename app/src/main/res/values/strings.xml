@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mixxmann S3 Smart control</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="_0">0</string>
+    <string name="logo">logo</string>
+</resources>
