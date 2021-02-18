@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         BluetoothAdapter bt =  BluetoothAdapter.getDefaultAdapter();
         if (bt!=null) {
             Toast.makeText(this, "BLUETOOTH adapter not available", Toast.LENGTH_LONG).show();
-            finish();
+            finishAffinity();
         }
         if (bt.isEnabled()) {
             // Bluetooth включен. Работаем.
